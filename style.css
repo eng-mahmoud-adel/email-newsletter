@@ -1,0 +1,418 @@
+/* start global styling */
+body {
+    width: 600px;
+    margin: auto;
+    font-family: "Arial";
+}
+/* end global styling */
+
+/* start header */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f15922;
+    padding: 18px 24px;
+}
+
+header nav .care {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;      
+}
+
+header .inner-header {
+    padding: 18px 24px;
+}
+
+header .inner-header .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+header .inner-header .wrapper .icons {
+    margin-right: 18px;
+}
+
+header .inner-header .wrapper p {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.2;  
+}
+
+header .inner-header h1 {
+    font-size: 34.306px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+header .inner-header h1 span {
+    color: rgb(251, 176, 59);
+}
+/* end header */
+
+/* start main */
+main {
+    background-color: #cccccc;
+    padding-top: 6px;
+    padding-left: 23px;
+}
+
+main .main-header {
+    background-color: #fff;
+    padding: 18px 0 18px 13px;
+}
+
+main .main-header h4 {
+    margin-bottom: 0;
+    color: rgb(241, 89, 34);
+    font-size: 18px;
+    font-weight: bold;  
+}
+
+/* --------------------------first section------------------------ */
+section.wind {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 24px;
+    background-color: #fff;
+    border: 1px solid #f15922;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+section.wind .wrapper {
+    padding: 16px 0 16px 26px;
+}
+section.wind .wrapper h6 {
+    font-size: 16px;
+    color: rgb(241, 89, 34);
+    font-weight: bold;
+    text-transform: uppercase; 
+    margin-bottom: 2px;   
+}
+
+section.wind .wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+section.wind .wrapper p span {
+    color: rgb(241, 89, 34);
+}
+
+section.wind .wrapper p:nth-child(4) {
+    font-size: 13px;
+}
+
+section.wind .wrapper ul {
+    padding-left: 0;
+    font-size: 12px;
+}
+
+section.wind .second-wrapper img {
+    position: relative;
+    right: 25px;
+    width: 257px;
+    height: 100%;
+}
+
+section.wind .second-wrapper p {
+    position: absolute;
+    font-size: 7.5px;
+    font-family: "ArialNarrow";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0; 
+}
+
+section.wind .second-wrapper p:nth-child(2) {
+    top: 73px;
+    left: -15px;
+}
+
+section.wind .second-wrapper p:nth-child(3) {
+    top: 73px;
+    left: 107px;
+}
+
+section.wind .second-wrapper p:nth-child(4) {
+    top: 151px;
+    left: -15px;
+}
+
+section.wind .second-wrapper p:nth-child(5) {
+    top: 151px;
+    left: 107px;
+    white-space: nowrap;
+}
+/* --------------------------first section------------------------ */
+
+/* --------------------------second section------------------------ */
+section.cloud {
+    margin: 28px 0 0;
+    border: 1px solid #f15922;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 24px;
+    background-color: #fff;
+}
+
+section.cloud .wrapper {
+    padding: 16px 0 16px 30px;
+}
+section.cloud .wrapper h6 {
+    font-size: 16px;
+    color: rgb(241, 89, 34);
+    font-weight: bold;
+    text-transform: uppercase;  
+    margin-bottom: 2px;  
+}
+
+section.cloud .wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+section.cloud .wrapper p span {
+    color: rgb(241, 89, 34);
+}
+
+section.cloud .wrapper ul {
+    padding-left: 0;
+    font-size: 12px;
+}
+/* --------------------------second section------------------------ */
+
+/* --------------------------third section------------------------ */
+section.source {
+    margin: 28px 0 0;
+    background-image: url('images/source.png');
+    background-repeat: no-repeat;
+}
+
+section.source .wrapper {
+    padding: 26px 0 16px 35px;
+}
+section.source .wrapper h6 {
+    font-size: 16px;
+    color: rgb(241, 89, 34);
+    font-weight: bold;
+    text-transform: uppercase; 
+    margin-bottom: 2px;   
+}
+
+section.source .wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+section.source .wrapper p span {
+    color: rgb(241, 89, 34);
+}
+
+section.source .wrapper p:nth-child(4) {
+    font-size: 13px;
+}
+
+section.source .wrapper ul {
+    padding-left: 0;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+section.source .wrapper ul li {
+    white-space: nowrap;
+}
+
+section.source .second-wrapper {
+    position: relative;
+}
+
+section.source .second-wrapper h6 {
+    position: absolute;
+    font-size: 22px;
+    font-family: "Arial";
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    top: -105px;
+    right: 67px;
+}
+
+section.source .second-wrapper p {
+    position: absolute;
+    font-size: 8.8px;
+    font-family: "ArialNarrow";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0; 
+} 
+
+section.source .second-wrapper p:nth-child(2) {
+    top: -145px;
+    left: 372px;
+    transform: rotate(-35deg);
+}
+
+section.source .second-wrapper p:nth-child(3) {
+    top: -146px;
+    left: 465px;
+    transform: rotate(38deg);
+}
+
+section.source .second-wrapper p:nth-child(4) {
+    top: -68px;
+    left: 501px;
+    transform: rotate(-70deg);
+}
+
+section.source .second-wrapper p:nth-child(5) {
+    top: -17px;
+    left: 428px;
+}
+
+section.source .second-wrapper p:nth-child(6) {
+    top: -66px;
+    left: 345px;
+    transform: rotate(73deg);
+}
+/* --------------------------third section------------------------ */
+
+/* --------------------------fourth section------------------------ */
+section.driving {
+    margin: 22px 0 0;
+    border: 1px solid #f15922;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 24px;
+    background-color: #fff;
+}
+
+section.driving .wrapper {
+    padding: 16px 0 16px 30px;
+}
+section.driving .wrapper h6 {
+    font-size: 16px;
+    color: rgb(241, 89, 34);
+    font-weight: bold;
+    text-transform: uppercase;  
+    margin-bottom: 2px;  
+}
+
+section.driving .wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+section.driving .wrapper p:nth-child(4) {
+    font-size: 12.5px;
+    white-space: nowrap;
+    margin-left: -12px;
+}
+
+section.driving .wrapper p span {
+    color: rgb(241, 89, 34);
+}
+
+section.driving .wrapper ul {
+    padding-left: 0;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+section.driving .wrapper ul small {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: -14px;
+}
+/* --------------------------fourth section------------------------ */
+
+/* --------------------------fifth section------------------------ */
+section.stop {
+    margin: 28px 0 0;
+    margin-right: 24px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+section.stop h6 {
+    font-size: 18px;
+    font-family: "Arial";
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+section.stop h6 span:first-of-type {
+    color: #f15922;
+}
+
+section.stop h6 span:last-child {
+    color: #ff0000;
+}
+/* --------------------------fifth section------------------------ */
+
+/* end main */
+
+/* start footer */
+footer {
+    padding-block: 20px;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: rgb(241, 89, 34);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer .wrapper {
+    position: relative;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+footer .wrapper h6, 
+footer .wrapper p {
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+footer .wrapper h6 {
+    top: 20%;
+    left: 27%;
+    color: #fff;
+}
+
+footer .wrapper h6 span {
+    margin-left: 2.5px;
+}
+
+footer .wrapper p {
+    top: 51%;
+    left: 27%;
+    color: #fbb03b;
+}
+
+footer .wrapper:nth-child(3) p {
+    color: #8cc63f;
+}
+
+footer .wrapper:nth-child(4) p {
+    left: 20%;
+    color: #cccccc;
+}
+/* end footer */
+ 
